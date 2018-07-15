@@ -1,0 +1,817 @@
+###############################################################################
+#
+# IAR ELF Linker V8.10.1.12857/W32 for ARM                13/Jul/2018  13:10:14
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Exe\VCAN_KL.out
+#    Map file     =  
+#        D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\List\VCAN_KL.map
+#    Command line =  
+#        -f C:\Users\dell\AppData\Local\Temp\EW1AB6.tmp
+#        ("D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\Control.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\handle.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Lib\CMSIS\iar_cortexM0plusl_math.a"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\lcd.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\main.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\misc.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_adc.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_conf.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_dac.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_dma.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_flash.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_gpio.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_i2c.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_it.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_lptmr.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_mcg.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_PIT.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_port.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_spi.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_SysTick.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_TPM.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_uart.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\MKL_wdog.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\PID.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\startup_MKL.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\System.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\system_MKL.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_ASCII.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_camera.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_key.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_key_event.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_LED.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_MMA7455.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_NRF24L0.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_NRF24L0_MSG.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_OV7725_Eagle.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_SCCB.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_TSL1401.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\VCAN_UI_VAR.o"
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Obj\vectors.o" -o
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\Exe\VCAN_KL.out" --map
+#        "D:\KL46智能车程序\探索者KL46省赛
+#        最终\Prj\IAR\Debug\List\VCAN_KL.map" --config
+#        "D:\KL46智能车程序\探索者KL46省赛 最终\Prj\IAR\config
+#        files\256KB_Pflash.icf" --semihosting --entry __iar_program_start
+#        --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"A1":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00040000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fffe410 to 0x20006000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"A1":                                          0x8
+  .noinit              ro code  0x00000410     0x8  startup_MKL.o [1]
+                              - 0x00000418     0x8
+
+"P1", part 1 of 2:                          0x8dcc
+  .text                ro code  0x00000418  0x2334  handle.o [1]
+  .text                ro code  0x0000274c    0xec  Control.o [1]
+  .text                ro code  0x00002838   0x184  MKL_gpio.o [1]
+  .text                ro code  0x000029bc   0x4bc  MKL_TPM.o [1]
+  .text                ro code  0x00002e78    0x64  MKL_SysTick.o [1]
+  .text                ro code  0x00002edc    0xe0  I32DivModFast.o [5]
+  .text                ro code  0x00002fbc    0x36  IxxToFlt.o [4]
+  .rodata              const    0x00002ff2     0x2  main.o [1]
+  .text                ro code  0x00002ff4    0x26  FltCmpLe.o [4]
+  .text                ro code  0x0000301c    0x28  FltCmpGe.o [4]
+  .text                ro code  0x00003044    0x34  IxxToDbl.o [4]
+  .text                ro code  0x00003078   0x184  DblMul.o [4]
+  .text                ro code  0x000031fc    0xc2  DblDiv.o [4]
+  .text                ro code  0x000032be    0x62  DblToFlt.o [4]
+  .text                ro code  0x00003320    0xb0  FltMul.o [4]
+  .text                ro code  0x000033d0    0x32  FltToDbl.o [4]
+  .text                ro code  0x00003402   0x1b4  DblAddSub.o [4]
+  .text                ro code  0x000035b6   0x120  FltAddSub.o [4]
+  .text                ro code  0x000036d8    0x3a  FltToS32.o [4]
+  .text                ro code  0x00003714    0x52  DblToI32.o [4]
+  .text                ro code  0x00003768   0x188  PID.o [1]
+  .text                ro code  0x000038f0    0xcc  MKL_port.o [1]
+  .text                ro code  0x000039bc    0x54  MKL_conf.o [1]
+  .text                ro code  0x00003a10     0x2  IntDivZer.o [5]
+  .text                ro code  0x00003a14    0x28  printf.o [3]
+  .text                ro code  0x00003a3c   0x33c  MKL_uart.o [1]
+  .text                ro code  0x00003d78  0x100a  xprintffull.o [3]
+  .text                ro code  0x00004d84    0x8c  xlocale_c.o [3]
+  .text                ro code  0x00004e10    0x16  strchr.o [5]
+  .text                ro code  0x00004e28    0x48  xfail_s.o [3]
+  .text                ro code  0x00004e70    0x10  strlen.o [5]
+  .text                ro code  0x00004e80    0x18  memchr.o [5]
+  .text                ro code  0x00004e98     0xa  xmbcurmax.o [3]
+  .text                ro code  0x00004ea4    0x5c  ABImemcpy.o [5]
+  .text                ro code  0x00004f00    0x6a  I64DivMod.o [5]
+  .text                ro code  0x00004f6a    0x32  DblCmpLe.o [4]
+  .text                ro code  0x00004f9c    0x32  DblCmpGe.o [4]
+  .text                ro code  0x00004fce    0x20  div.o [3]
+  .text                ro code  0x00004fee     0xa  abort.o [3]
+  .text                ro code  0x00004ff8     0x2  I64DivZer.o [5]
+  .text                ro code  0x00004ffc    0x14  exit.o [6]
+  .text                ro code  0x00005010   0xf0c  lcd.o [1]
+  .text                ro code  0x00005f1c   0x888  System.o [1]
+  .text                ro code  0x000067a4   0x2c0  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x00006a64    0x50  misc.o [1]
+  .text                ro code  0x00006ab4    0x8c  MKL_PIT.o [1]
+  .text                ro code  0x00006b40   0x486  VCAN_SCCB.o [1]
+  .text                ro code  0x00006fc8    0x9c  VCAN_key.o [1]
+  .text                ro code  0x00007064   0x1e0  MKL_dma.o [1]
+  .rodata              const    0x00007244   0x5f0  lcd.o [1]
+  .rodata              const    0x00007834   0x474  lcd.o [1]
+  .data_init                    0x00007ca8   0x464  <Block>
+    Initializer bytes  const    0x00007ca8   0x464  <for .data-1>
+  .text                ro code  0x0000810c   0x34c  MKL_mcg.o [1]
+  .rodata              const    0x00008458   0x330  lcd.o [1]
+  .text                ro code  0x00008788   0x230  main.o [1]
+  .text                ro code  0x000089b8   0x168  MKL_it.o [1]
+  .text                ro code  0x00008b20   0x150  system_MKL.o [1]
+  .text                ro code  0x00008c70    0x20  MKL_wdog.o [1]
+  .rodata              const    0x00008c90    0xac  lcd.o [1]
+  .rodata              const    0x00008d3c    0x84  lcd.o [1]
+  .rodata              const    0x00008dc0    0x4c  MKL_SysTick.o [1]
+  .rodata              const    0x00008e0c    0x48  MKL_dma.o [1]
+  .rodata              const    0x00008e54    0x48  MKL_gpio.o [1]
+  .rodata              const    0x00008e9c    0x48  MKL_PIT.o [1]
+  .rodata              const    0x00008ee4    0x48  MKL_TPM.o [1]
+  .rodata              const    0x00008f2c    0x44  misc.o [1]
+  .text                ro code  0x00008f70    0x40  zero_init3.o [5]
+  .rodata              const    0x00008fb0    0x3c  MKL_conf.o [1]
+  .text                ro code  0x00008fec    0x28  data_init.o [5]
+  .rodata              const    0x00009014    0x24  MKL_conf.o [1]
+  .rodata              const    0x00009038    0x24  VCAN_OV7725_Eagle.o [1]
+  .rodata              const    0x0000905c    0x24  VCAN_OV7725_Eagle.o [1]
+  .iar.init_table      const    0x00009080    0x10  - Linker created -
+  .rodata              const    0x00009090    0x20  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x000090b0    0x1c  xencoding_8859_1.o [3]
+  .text                ro code  0x000090cc    0x1a  cmain.o [5]
+  .text                ro code  0x000090e6     0x4  low_level_init.o [3]
+  .text                ro code  0x000090ea     0x8  exit.o [3]
+  .text                ro code  0x000090f4     0xa  cexit.o [5]
+  .rodata              const    0x00009100    0x18  VCAN_OV7725_Eagle.o [1]
+  .rodata              const    0x00009118    0x18  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x00009130    0x16  xprout.o [3]
+  .text                ro code  0x00009148    0x10  putchar.o [3]
+  .rodata              const    0x00009158    0x14  VCAN_OV7725_Eagle.o [1]
+  .rodata              const    0x0000916c    0x10  System.o [1]
+  .rodata              const    0x0000917c    0x10  System.o [1]
+  .rodata              const    0x0000918c    0x10  System.o [1]
+  .rodata              const    0x0000919c    0x10  System.o [1]
+  .rodata              const    0x000091ac    0x10  xprintffull.o [3]
+  .rodata              const    0x000091bc     0xc  System.o [1]
+  .text                ro code  0x000091c8     0xc  cstartup_M.o [5]
+  .rodata              const    0x000091d4     0x6  xlocale_c.o [3]
+  .rodata              const    0x000091dc     0x4  main.o [1]
+  .rodata              const    0x000091e0     0x4  main.o [1]
+  .rodata              const    0x000091e4     0x0  zero_init3.o [5]
+                              - 0x000091e4  0x8dcc
+
+"P1", part 2 of 2:                             0x0
+  CodeRelocate                  0x000091e4     0x0  <Block>
+
+"P2", part 1 of 3:                           0x464
+  .data                         0x1fffe410   0x464  <Block>
+    .data-1                     0x1fffe410   0x463  <Init block>
+      .data            inited   0x1fffe410     0x4  Control.o [1]
+      .data            inited   0x1fffe414    0x40  handle.o [1]
+      .data            inited   0x1fffe454    0x3c  handle.o [1]
+      .data            inited   0x1fffe490     0x4  handle.o [1]
+      .data            inited   0x1fffe494     0x4  handle.o [1]
+      .data            inited   0x1fffe498   0x1bc  MKL_conf.o [1]
+      .data            inited   0x1fffe654    0x14  MKL_gpio.o [1]
+      .data            inited   0x1fffe668    0x34  MKL_mcg.o [1]
+      .data            inited   0x1fffe69c    0x14  MKL_port.o [1]
+      .data            inited   0x1fffe6b0     0xc  MKL_TPM.o [1]
+      .data            inited   0x1fffe6bc     0xc  MKL_uart.o [1]
+      .data            inited   0x1fffe6c8    0x60  PID.o [1]
+      .data            inited   0x1fffe728     0xc  PID.o [1]
+      .data            inited   0x1fffe734     0x8  VCAN_key.o [1]
+      .data            inited   0x1fffe73c    0x64  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fffe7a0    0x48  xfiles.o [3]
+      .data            inited   0x1fffe7e8    0x38  xlocale_c.o [3]
+      .data            inited   0x1fffe820    0x48  xlocale_c.o [3]
+      .data            inited   0x1fffe868     0x2  Control.o [1]
+      .data            inited   0x1fffe86a     0x2  Control.o [1]
+      .data            inited   0x1fffe86c     0x2  MKL_mcg.o [1]
+      .data            inited   0x1fffe86e     0x1  handle.o [1]
+      .data            inited   0x1fffe86f     0x1  main.o [1]
+      .data            inited   0x1fffe870     0x1  System.o [1]
+      .data            inited   0x1fffe871     0x1  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fffe872     0x1  VCAN_OV7725_Eagle.o [1]
+                              - 0x1fffe874   0x464
+
+"P2", part 2 of 3:                          0x1858
+  .bss                          0x1fffe874  0x1858  <Block>
+    .bss               zero     0x1fffe874     0x4  Control.o [1]
+    .bss               zero     0x1fffe878     0x4  Control.o [1]
+    .bss               zero     0x1fffe87c    0x40  handle.o [1]
+    .bss               zero     0x1fffe8bc    0x40  handle.o [1]
+    .bss               zero     0x1fffe8fc    0x40  handle.o [1]
+    .bss               zero     0x1fffe93c    0x40  handle.o [1]
+    .bss               zero     0x1fffe97c    0x40  handle.o [1]
+    .bss               zero     0x1fffe9bc    0x40  handle.o [1]
+    .bss               zero     0x1fffe9fc    0x40  handle.o [1]
+    .bss               zero     0x1fffea3c    0x40  handle.o [1]
+    .bss               zero     0x1fffea7c    0x40  handle.o [1]
+    .bss               zero     0x1fffeabc     0x4  handle.o [1]
+    .bss               zero     0x1fffeac0     0x4  handle.o [1]
+    .bss               zero     0x1fffeac4     0x4  handle.o [1]
+    .bss               zero     0x1fffeac8    0x10  lcd.o [1]
+    .bss               zero     0x1fffead8   0x258  main.o [1]
+    .bss               zero     0x1fffed30  0x12c0  main.o [1]
+    .bss               zero     0x1ffffff0     0x4  MKL_wdog.o [1]
+    .bss               zero     0x1ffffff4    0x1c  PID.o [1]
+    .bss               zero     0x20000010    0x1c  PID.o [1]
+    .bss               zero     0x2000002c     0x4  system_MKL.o [1]
+    .bss               zero     0x20000030     0x4  system_MKL.o [1]
+    .bss               zero     0x20000034     0x4  system_MKL.o [1]
+    .bss               zero     0x20000038     0x4  system_MKL.o [1]
+    .bss               zero     0x2000003c     0x4  VCAN_OV7725_Eagle.o [1]
+    .bss               zero     0x20000040    0x50  xfiles.o [3]
+    .bss               zero     0x20000090     0x4  xfail_s.o [3]
+    .bss               zero     0x20000094     0x2  Control.o [1]
+    .bss               zero     0x20000096     0x2  Control.o [1]
+    .bss               zero     0x20000098     0x2  Control.o [1]
+    .bss               zero     0x2000009a     0x2  handle.o [1]
+    .bss               zero     0x2000009c     0x2  lcd.o [1]
+    .bss               zero     0x2000009e     0x1  Control.o [1]
+    .bss               zero     0x2000009f     0x1  Control.o [1]
+    .bss               zero     0x200000a0     0x1  Control.o [1]
+    .bss               zero     0x200000a1     0x1  Control.o [1]
+    .bss               zero     0x200000a2     0x1  Control.o [1]
+    .bss               zero     0x200000a3     0x1  Control.o [1]
+    .bss               zero     0x200000a4     0x1  Control.o [1]
+    .bss               zero     0x200000a5     0x1  handle.o [1]
+    .bss               zero     0x200000a6     0x1  handle.o [1]
+    .bss               zero     0x200000a7     0x1  handle.o [1]
+    .bss               zero     0x200000a8     0x1  handle.o [1]
+    .bss               zero     0x200000a9     0x1  handle.o [1]
+    .bss               zero     0x200000aa     0x1  handle.o [1]
+    .bss               zero     0x200000ab     0x1  handle.o [1]
+    .bss               zero     0x200000ac     0x1  handle.o [1]
+    .bss               zero     0x200000ad     0x1  handle.o [1]
+    .bss               zero     0x200000ae     0x1  handle.o [1]
+    .bss               zero     0x200000af     0x1  handle.o [1]
+    .bss               zero     0x200000b0     0x1  handle.o [1]
+    .bss               zero     0x200000b1     0x1  handle.o [1]
+    .bss               zero     0x200000b2     0x1  handle.o [1]
+    .bss               zero     0x200000b3     0x1  handle.o [1]
+    .bss               zero     0x200000b4     0x1  handle.o [1]
+    .bss               zero     0x200000b5     0x1  handle.o [1]
+    .bss               zero     0x200000b6     0x1  handle.o [1]
+    .bss               zero     0x200000b7     0x1  handle.o [1]
+    .bss               zero     0x200000b8     0x1  handle.o [1]
+    .bss               zero     0x200000b9     0x1  handle.o [1]
+    .bss               zero     0x200000ba     0x1  handle.o [1]
+    .bss               zero     0x200000bb     0x1  handle.o [1]
+    .bss               zero     0x200000bc     0x1  handle.o [1]
+    .bss               zero     0x200000bd     0x1  handle.o [1]
+    .bss               zero     0x200000be     0x1  handle.o [1]
+    .bss               zero     0x200000bf     0x1  handle.o [1]
+    .bss               zero     0x200000c0     0x1  handle.o [1]
+    .bss               zero     0x200000c1     0x1  handle.o [1]
+    .bss               zero     0x200000c2     0x1  handle.o [1]
+    .bss               zero     0x200000c3     0x1  main.o [1]
+    .bss               zero     0x200000c4     0x1  MKL_it.o [1]
+    .bss               zero     0x200000c5     0x1  System.o [1]
+    .bss               zero     0x200000c6     0x1  System.o [1]
+    .bss               zero     0x200000c7     0x1  System.o [1]
+    .bss               zero     0x200000c8     0x1  System.o [1]
+    .bss               zero     0x200000c9     0x1  System.o [1]
+                              - 0x200000cc  0x1858
+
+"P2", part 3 of 3:                             0x0
+  CodeRelocateRam               0x200000cc     0x0  <Block>
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1856:
+          0x1fffe874  0x1856
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\KL46智能车程序\探索者KL46省赛 最终\Prj\IAR\Debug\Obj: [1]
+    Control.o                236        8       29
+    MKL_PIT.o                140       72
+    MKL_SysTick.o            100       76
+    MKL_TPM.o              1 212       84       12
+    MKL_conf.o                84      540      444
+    MKL_dma.o                480       72
+    MKL_gpio.o               388       92       20
+    MKL_it.o                 360                 1
+    MKL_mcg.o                844       54       54
+    MKL_port.o               204       20       20
+    MKL_uart.o               828       12       12
+    MKL_wdog.o                32                 4
+    PID.o                    392      108      164
+    System.o               2 184       77        6
+    VCAN_OV7725_Eagle.o      704      274      106
+    VCAN_SCCB.o            1 158
+    VCAN_key.o               156        8        8
+    handle.o               9 012      133      753
+    lcd.o                  3 852    3 780       18
+    main.o                   560       11    5 402
+    misc.o                    80       68
+    startup_MKL.o              8
+    system_MKL.o             336                16
+    vectors.o                       1 040
+    ----------------------------------------------
+    Total:                23 350    6 529    7 069
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    abort.o                   10
+    div.o                     32
+    exit.o                     8
+    low_level_init.o           4
+    printf.o                  40
+    putchar.o                 16
+    xencoding_8859_1.o        28
+    xfail_s.o                 72                 4
+    xfiles.o                           72      152
+    xlocale_c.o              140      134      128
+    xmbcurmax.o               10
+    xprintffull.o          4 106       16
+    xprout.o                  22
+    ----------------------------------------------
+    Total:                 4 488      222      284
+
+m6M_tl.a: [4]
+    DblAddSub.o              436
+    DblCmpGe.o                50
+    DblCmpLe.o                50
+    DblDiv.o                 194
+    DblMul.o                 388
+    DblToFlt.o                98
+    DblToI32.o                82
+    FltAddSub.o              288
+    FltCmpGe.o                40
+    FltCmpLe.o                38
+    FltMul.o                 176
+    FltToDbl.o                50
+    FltToS32.o                58
+    IxxToDbl.o                52
+    IxxToFlt.o                54
+    ----------------------------------------------
+    Total:                 2 054
+
+rt6M_tl.a: [5]
+    ABImemcpy.o               92
+    I32DivModFast.o          224
+    I64DivMod.o              106
+    I64DivZer.o                2
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    cstartup_M.o              12
+    data_init.o               40
+    memchr.o                  24
+    strchr.o                  22
+    strlen.o                  16
+    zero_init3.o              64
+    ----------------------------------------------
+    Total:                   640
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                      24        4
+    Linker created                     17
+--------------------------------------------------
+    Grand Total:          30 576    6 772    7 353
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fffe874           --   Gb  - Linker created -
+.bss$$Limit             0x200000cc           --   Gb  - Linker created -
+.data$$Base             0x1fffe410           --   Gb  - Linker created -
+.data$$Limit            0x1fffe874           --   Gb  - Linker created -
+.data_init$$Base        0x00007ca8           --   Gb  - Linker created -
+.data_init$$Limit       0x0000810c           --   Gb  - Linker created -
+.iar.init_table$$Base   0x00009080           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00009090           --   Gb  - Linker created -
+?main                   0x000090cd          Code  Gb  cmain.o [5]
+ASSERT_FAILED_STR       0x00009014    0x24  Data  Gb  MKL_conf.o [1]
+Adjust_Speed            0x0000274d     0xa  Code  Gb  Control.o [1]
+Adjust_cursor           0x200000c8     0x1  Data  Gb  System.o [1]
+Annulus1_Control        0x00000463    0x4a  Code  Gb  handle.o [1]
+Annulus1_Flag           0x200000b6     0x1  Data  Gb  handle.o [1]
+Annulus1_Handle         0x00000a21   0x462  Code  Gb  handle.o [1]
+Annulus2_Control        0x00000419    0x4a  Code  Gb  handle.o [1]
+Annulus2_Delay          0x200000bb     0x1  Data  Gb  handle.o [1]
+Annulus2_Handle         0x000004c9   0x514  Code  Gb  handle.o [1]
+Annulus3_Flag           0x200000b7     0x1  Data  Gb  handle.o [1]
+Annulus_Check           0x200000a3     0x1  Data  Gb  Control.o [1]
+Annulus_Count           0x1fffeac4     0x4  Data  Gb  handle.o [1]
+Annulus_DelayMs         0x2000009a     0x2  Data  Gb  handle.o [1]
+Annulus_Left            0x200000b8     0x1  Data  Gb  handle.o [1]
+Annulus_Mode            0x200000c2     0x1  Data  Gb  handle.o [1]
+Annulus_Right           0x200000b9     0x1  Data  Gb  handle.o [1]
+Annulus_Times           0x200000ba     0x1  Data  Gb  handle.o [1]
+BangBang_Flag           0x200000a0     0x1  Data  Gb  Control.o [1]
+Boma_Key_Init           0x00005fed    0xac  Code  Gb  System.o [1]
+CNST_Value              0x1fffe870     0x1  Data  Gb  System.o [1]
+CacheMore               0x00004d89    0x28  Code  Lc  xlocale_c.o [3]
+Calculate_Add           0x00001b49    0x3c  Code  Gb  handle.o [1]
+Calculate_Angle         0x000019a5    0x16  Code  Gb  handle.o [1]
+CodeRelocate$$Base      0x000091e4           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x000091e4           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x200000cc           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x200000cc           --   Gb  - Linker created -
+Curve2_Fitting          0x00001a35   0x10c  Code  Gb  handle.o [1]
+Curve_Fitting           0x000019bb    0x74  Code  Gb  handle.o [1]
+DMA0_IRQHandler         0x000089db     0x8  Code  Gb  MKL_it.o [1]
+Error_Transform         0x000026b5    0x18  Code  Gb  handle.o [1]
+First_Line_Handle       0x00001b85   0x12e  Code  Gb  handle.o [1]
+Foresight               0x200000a6     0x1  Data  Gb  handle.o [1]
+GPIOX                   0x1fffe654    0x14  Data  Gb  MKL_gpio.o [1]
+GUI_DrawFont16          0x000057e1   0x130  Code  Gb  lcd.o [1]
+GUI_DrawFont24          0x00005911   0x130  Code  Gb  lcd.o [1]
+GUI_DrawFont32          0x00005a49   0x130  Code  Gb  lcd.o [1]
+Hazard_Flag             0x200000af     0x1  Data  Gb  handle.o [1]
+Hazard_Time             0x200000b0     0x1  Data  Gb  handle.o [1]
+High_Speed              0x20000098     0x2  Data  Gb  Control.o [1]
+Image_Handle            0x00000efd   0xa60  Code  Gb  handle.o [1]
+Image_Para_Init         0x00000e8d    0x2c  Code  Gb  handle.o [1]
+IncPID_Init             0x00003777    0x1e  Code  Gb  PID.o [1]
+KEY_Adjust              0x000061fd   0x586  Code  Gb  System.o [1]
+KEY_PTxn                0x1fffe734     0x8  Data  Gb  VCAN_key.o [1]
+Key_Flag                0x200000c7     0x1  Data  Gb  System.o [1]
+LCD_Clear               0x0000536d    0x44  Code  Gb  lcd.o [1]
+LCD_DrawLine            0x0000551d    0xd6  Code  Gb  lcd.o [1]
+LCD_DrawPoint           0x00005471    0x1c  Code  Gb  lcd.o [1]
+LCD_DrawRectangle       0x000055f3    0x5c  Code  Gb  lcd.o [1]
+LCD_Fill                0x00005491    0x8c  Code  Gb  lcd.o [1]
+LCD_GPIOInit            0x00005111    0x36  Code  Gb  lcd.o [1]
+LCD_Init                0x00005147   0x226  Code  Gb  lcd.o [1]
+LCD_Num_BC              0x00005de1   0x13c  Code  Gb  lcd.o [1]
+LCD_RESET               0x000050f1    0x20  Code  Gb  lcd.o [1]
+LCD_SetCursor           0x00005451    0x20  Code  Gb  lcd.o [1]
+LCD_SetParam            0x00005421    0x30  Code  Gb  lcd.o [1]
+LCD_SetWindows          0x000053b1    0x70  Code  Gb  lcd.o [1]
+LCD_ShowChar            0x00005659   0x176  Code  Gb  lcd.o [1]
+LCD_WR_DATA             0x00005075    0x26  Code  Gb  lcd.o [1]
+LCD_WR_DATA_16Bit       0x0000509b    0x32  Code  Gb  lcd.o [1]
+LCD_WR_REG              0x0000504f    0x26  Code  Gb  lcd.o [1]
+LCD_WriteRAM_Prepare    0x000050e5     0xc  Code  Gb  lcd.o [1]
+LCD_WriteReg            0x000050cd    0x18  Code  Gb  lcd.o [1]
+LCD_char                0x00005cf5    0xdc  Code  Gb  lcd.o [1]
+LCD_dispaly             0x00008823    0xb8  Code  Gb  main.o [1]
+Last_Point              0x1fffe86e     0x1  Data  Gb  handle.o [1]
+Left_Add_Flag           0x1fffe9bc    0x40  Data  Gb  handle.o [1]
+Left_Add_Line           0x1fffe93c    0x40  Data  Gb  handle.o [1]
+Left_Add_Start          0x200000a9     0x1  Data  Gb  handle.o [1]
+Left_Add_Stop           0x200000ab     0x1  Data  Gb  handle.o [1]
+Left_Hazard_Flag        0x200000ad     0x1  Data  Gb  handle.o [1]
+Left_Ka                 0x1fffeabc     0x4  Data  Gb  handle.o [1]
+Left_Kb                 0x1fffe490     0x4  Data  Gb  handle.o [1]
+Left_Line               0x1fffe87c    0x40  Data  Gb  handle.o [1]
+Left_Max                0x200000b1     0x1  Data  Gb  handle.o [1]
+Line_Count              0x200000a8     0x1  Data  Gb  handle.o [1]
+Line_Repair             0x00002099   0x178  Code  Gb  handle.o [1]
+LoadInt                 0x00003f69    0x74  Code  Lc  xprintffull.o [3]
+MOTOR                   0x1fffe728     0xc  Data  Gb  PID.o [1]
+MOTOR_Control           0x00002757    0x7c  Code  Gb  Control.o [1]
+MOTOR_Duty              0x1fffe874     0x4  Data  Gb  Control.o [1]
+MOTOR_PID               0x20000010    0x1c  Data  Gb  PID.o [1]
+MOTOR_Speed             0x1fffe878     0x4  Data  Gb  Control.o [1]
+Mid_Line                0x1fffe8fc    0x40  Data  Gb  handle.o [1]
+Mid_Line_Repair         0x00002229   0x322  Code  Gb  handle.o [1]
+NVIC_DisableIRQ         0x000067b3     0xe  Code  Lc  VCAN_OV7725_Eagle.o [1]
+NVIC_EnableIRQ          0x00005f1d     0xe  Code  Lc  System.o [1]
+NVIC_EnableIRQ          0x000067a5     0xe  Code  Lc  VCAN_OV7725_Eagle.o [1]
+Out_Side                0x200000a7     0x1  Data  Gb  handle.o [1]
+PID_Realize             0x00003841    0x96  Code  Gb  PID.o [1]
+PIT_IRQHandler          0x000089e3    0xfc  Code  Gb  MKL_it.o [1]
+PIT_IRQHandler::Time_150ms
+                        0x200000c4     0x1  Data  Lc  MKL_it.o [1]
+POINT_COLOR             0x2000009c     0x2  Data  Gb  lcd.o [1]
+PORTA_IRQHandler        0x000089b9    0x22  Code  Gb  MKL_it.o [1]
+PORTX                   0x1fffe69c    0x14  Data  Gb  MKL_port.o [1]
+Parameter_Init          0x00006099    0xa2  Code  Gb  System.o [1]
+PlacePID_Control        0x00003795    0xac  Code  Gb  PID.o [1]
+PlacePID_Init           0x00003769     0xe  Code  Gb  PID.o [1]
+Point                   0x200000c3     0x1  Data  Gb  main.o [1]
+Point_Mid               0x1fffe86f     0x1  Data  Gb  main.o [1]
+Point_Weight            0x00002585   0x118  Code  Gb  handle.o [1]
+Ramp_Delay              0x1fffe868     0x2  Data  Gb  Control.o [1]
+Ramp_Flag               0x200000a1     0x1  Data  Gb  Control.o [1]
+Region$$Table$$Base     0x00009080           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00009090           --   Gb  - Linker created -
+Reset_Handler           0x00000411          Code  Gb  startup_MKL.o [1]
+Right_Add_Flag          0x1fffe9fc    0x40  Data  Gb  handle.o [1]
+Right_Add_Line          0x1fffe97c    0x40  Data  Gb  handle.o [1]
+Right_Add_Start         0x200000aa     0x1  Data  Gb  handle.o [1]
+Right_Add_Stop          0x200000ac     0x1  Data  Gb  handle.o [1]
+Right_Hazard_Flag       0x200000ae     0x1  Data  Gb  handle.o [1]
+Right_Ka                0x1fffeac0     0x4  Data  Gb  handle.o [1]
+Right_Kb                0x1fffe494     0x4  Data  Gb  handle.o [1]
+Right_Line              0x1fffe8bc    0x40  Data  Gb  handle.o [1]
+Right_Min               0x200000b2     0x1  Data  Gb  handle.o [1]
+S3010                   0x1fffe6c8    0x60  Data  Gb  PID.o [1]
+S3010_Duty              0x1fffe410     0x4  Data  Gb  Control.o [1]
+S3010_PID               0x1ffffff4    0x1c  Data  Gb  PID.o [1]
+SCCB_Ack                0x00006c7d    0x56  Code  Lc  VCAN_SCCB.o [1]
+SCCB_GPIO_init          0x00006b59    0x28  Code  Gb  VCAN_SCCB.o [1]
+SCCB_NoAck              0x00006cd3    0x58  Code  Lc  VCAN_SCCB.o [1]
+SCCB_ReadByte           0x00006f15    0x2c  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte_one       0x00006f41    0x86  Code  Lc  VCAN_SCCB.o [1]
+SCCB_ReceiveByte        0x00006e11    0x7e  Code  Lc  VCAN_SCCB.o [1]
+SCCB_SendByte           0x00006dad    0x60  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Start              0x00006b81    0xac  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Stop               0x00006c2d    0x50  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WaitAck            0x00006d2b    0x82  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WriteByte          0x00006ea5    0x28  Code  Gb  VCAN_SCCB.o [1]
+SCCB_WriteByte_one      0x00006ecd    0x48  Code  Lc  VCAN_SCCB.o [1]
+SCCB_delay              0x00006b41    0x18  Code  Lc  VCAN_SCCB.o [1]
+SPIv_WriteData          0x00005011    0x3e  Code  Gb  lcd.o [1]
+Send_OK                 0x200000c5     0x1  Data  Gb  System.o [1]
+Set                     0x2000009e     0x1  Data  Gb  Control.o [1]
+Show_Str                0x00005b85   0x16c  Code  Gb  lcd.o [1]
+Speed_Set               0x2000009f     0x1  Data  Gb  Control.o [1]
+Starting1_Time          0x20000094     0x2  Data  Gb  Control.o [1]
+Starting_Line_Flag      0x200000b3     0x1  Data  Gb  handle.o [1]
+Starting_Line_Time      0x200000b5     0x1  Data  Gb  handle.o [1]
+Starting_Line_Times     0x200000b4     0x1  Data  Gb  handle.o [1]
+Starting_Time           0x1fffe86a     0x2  Data  Gb  Control.o [1]
+Stop1_Time              0x20000096     0x2  Data  Gb  Control.o [1]
+Stop_Flag               0x200000a2     0x1  Data  Gb  Control.o [1]
+Stop_Time               0x200000a4     0x1  Data  Gb  Control.o [1]
+System_Init             0x00005f2b    0xc2  Code  Gb  System.o [1]
+TPMN                    0x1fffe6b0     0xc  Data  Gb  MKL_TPM.o [1]
+Traversal_Left          0x00001cbd    0x92  Code  Gb  handle.o [1]
+Traversal_Left_Line     0x00001de3    0x92  Code  Gb  handle.o [1]
+Traversal_Mid_Line      0x00001f59   0x136  Code  Gb  handle.o [1]
+Traversal_Right         0x00001d4f    0x94  Code  Gb  handle.o [1]
+Traversal_Right_Line    0x00001ead    0x94  Code  Gb  handle.o [1]
+UARTN                   0x1fffe6bc     0xc  Data  Gb  MKL_uart.o [1]
+Weight                  0x1fffe454    0x3c  Data  Gb  handle.o [1]
+Width_Add               0x1fffea7c    0x40  Data  Gb  handle.o [1]
+Width_Max               0x1fffe414    0x40  Data  Gb  handle.o [1]
+Width_Min               0x200000a5     0x1  Data  Gb  handle.o [1]
+Width_Real              0x1fffea3c    0x40  Data  Gb  handle.o [1]
+_Encoding_8859_1_Mbrlen
+                        0x000090c1     0x2  Code  Gb  xencoding_8859_1.o [3]
+_Encoding_8859_1_Wctomb
+                        0x000090b1    0x10  Code  Gb  xencoding_8859_1.o [3]
+_GenldFull              0x00004ae5   0x26a  Code  Lc  xprintffull.o [3]
+_LdtobFull              0x0000464d   0x484  Code  Lc  xprintffull.o [3]
+_LitobFull              0x000044d5   0x126  Code  Lc  xprintffull.o [3]
+_Locale_lconv           0x1fffe7e8    0x38  Data  Lc  xlocale_c.o [3]
+_PrintfFull             0x00003d79   0x1dc  Code  Gb  xprintffull.o [3]
+_Prout                  0x00009131    0x16  Code  Gb  xprout.o [3]
+_PutcharsFull           0x00004d4f    0x32  Code  Lc  xprintffull.o [3]
+_PutfldFull             0x00003fdd   0x2d6  Code  Lc  xprintffull.o [3]
+_PutstrFull             0x00004419    0xb4  Code  Lc  xprintffull.o [3]
+_PuttxtFull             0x0000431d    0xfa  Code  Lc  xprintffull.o [3]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20005ff8          Data  Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fffe000          Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          Data  Gb  command line/config [2]
+__aeabi_cdcmple         0x00004f6b          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x00004f9d          Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmple         0x00002ff5          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x0000301d          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x000032bf          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x00003715          Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x00003739          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x00003403          Code  Gb  DblAddSub.o [4]
+__aeabi_ddiv            0x000031fd          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00003079          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x000034c9          Code  Gb  DblAddSub.o [4]
+__aeabi_f2d             0x000033d1          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x000036d9          Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x000035b7          Code  Gb  FltAddSub.o [4]
+__aeabi_fmul            0x00003321          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x00003627          Code  Gb  FltAddSub.o [4]
+__aeabi_i2d             0x00003065          Code  Gb  IxxToDbl.o [4]
+__aeabi_i2f             0x00002fdd          Code  Gb  IxxToFlt.o [4]
+__aeabi_idiv            0x00002f09          Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x00003a11          Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x00002f09          Code  Gb  I32DivModFast.o [5]
+__aeabi_ldiv0           0x00004ff9          Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy          0x00004ea5          Code  Gb  ABImemcpy.o [5]
+__aeabi_ui2d            0x00003045          Code  Gb  IxxToDbl.o [4]
+__aeabi_ui2f            0x00002fbd          Code  Gb  IxxToFlt.o [4]
+__aeabi_uidiv           0x00002f0f          Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x00002f0f          Code  Gb  I32DivModFast.o [5]
+__aeabi_uldivmod        0x00004f01          Code  Gb  I64DivMod.o [5]
+__cmain                 0x000090cd          Code  Gb  cmain.o [5]
+__exit                  0x00004ffd    0x14  Code  Gb  exit.o [6]
+__iar_Fail_s            0x00004e29    0x22  Code  Gb  xfail_s.o [3]
+__iar_Mbcurmax          0x00004e99     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Stdout            0x1fffe7a0    0x48  Data  Gb  xfiles.o [3]
+__iar_d2uiz             0x0000373d          Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x00008fed    0x28  Code  Gb  data_init.o [5]
+__iar_globLocale        0x1fffe820    0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0x00004d85     0x4  Code  Gb  xlocale_c.o [3]
+__iar_program_start     0x000091c9          Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x00008f71    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x000090e7     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x000090d9          Code  Gb  cmain.o [5]
+_exit                   0x000090f5          Code  Gb  cexit.o [5]
+_gLocale_mblen          0x00004ded     0xa  Code  Gb  xlocale_c.o [3]
+_gLocale_mblenInt       0x00004db1    0x34  Code  Gb  xlocale_c.o [3]
+_gLocale_wctomb         0x00004df7     0xa  Code  Gb  xlocale_c.o [3]
+_gLocale_wctombInt      0x00004de5     0x8  Code  Gb  xlocale_c.o [3]
+_main                   0x000090e3          Code  Gb  cmain.o [5]
+abort                   0x00004fef     0xa  Code  Gb  abort.o [3]
+asc2_1206               0x00007834   0x474  Data  Gb  lcd.o [1]
+asc2_1608               0x00007244   0x5f0  Data  Gb  lcd.o [1]
+assert_failed           0x000039bd    0x12  Code  Gb  MKL_conf.o [1]
+bus_clk_khz             0x20000038     0x4  Data  Gb  system_MKL.o [1]
+common_startup          0x00008b9f    0x92  Code  Gb  system_MKL.o [1]
+core_clk_khz            0x20000030     0x4  Data  Gb  system_MKL.o [1]
+core_clk_mhz            0x20000034     0x4  Data  Gb  system_MKL.o [1]
+default_isr             0x000039e5    0x1c  Code  Gb  MKL_conf.o [1]
+div                     0x00004fcf    0x20  Code  Gb  div.o [3]
+dma_gpio_input_init     0x00007065    0x5e  Code  Lc  MKL_dma.o [1]
+dma_portx2buff_init     0x000070c3   0x154  Code  Gb  MKL_dma.o [1]
+dma_repeat              0x000067c1    0x74  Code  Lc  VCAN_OV7725_Eagle.o [1]
+exit                    0x000090eb     0x8  Code  Gb  exit.o [3]
+fifth_signal            0x200000c0     0x1  Data  Gb  handle.o [1]
+first_signal            0x200000bc     0x1  Data  Gb  handle.o [1]
+fourth_signal           0x200000bf     0x1  Data  Gb  handle.o [1]
+fputc                   0x000039cf    0x14  Code  Gb  MKL_conf.o [1]
+gpio_get                0x00002973    0x40  Code  Gb  MKL_gpio.o [1]
+gpio_init               0x00002839    0xbe  Code  Gb  MKL_gpio.o [1]
+gpio_set                0x000028f7    0x7c  Code  Gb  MKL_gpio.o [1]
+image_processing        0x00002709    0x3c  Code  Gb  handle.o [1]
+img                     0x1fffed30  0x12c0  Data  Gb  main.o [1]
+img_display             0x200000c9     0x1  Data  Gb  System.o [1]
+img_extract             0x000088db    0xa4  Code  Gb  main.o [1]
+imgbuff                 0x1fffead8   0x258  Data  Gb  main.o [1]
+key_check               0x00007035    0x2a  Code  Gb  VCAN_key.o [1]
+key_get                 0x0000701b    0x1a  Code  Gb  VCAN_key.o [1]
+key_init                0x00006fc9    0x52  Code  Gb  VCAN_key.o [1]
+key_state               0x200000c6     0x1  Data  Gb  System.o [1]
+lcddev                  0x1fffeac8    0x10  Data  Gb  lcd.o [1]
+localeconv              0x00004e03     0x4  Code  Gb  xlocale_c.o [3]
+main                    0x00008789    0x9a  Code  Gb  main.o [1]
+mcg_cfg                 0x1fffe668    0x34  Data  Gb  MKL_mcg.o [1]
+mcg_div                 0x1fffe86c     0x2  Data  Gb  MKL_mcg.o [1]
+mcg_div_count           0x0000810d   0x224  Code  Gb  MKL_mcg.o [1]
+memchr                  0x00004e81    0x18  Code  Gb  memchr.o [5]
+obuf                    0x20000040    0x50  Data  Lc  xfiles.o [3]
+ov7725_eagle_cfgnum     0x1fffe872     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_dma        0x000068f1    0x2a  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_get_img    0x0000691b    0x42  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_buff   0x2000003c     0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_flag   0x1fffe871     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_init       0x00006835    0x18  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_port_init  0x0000684d    0x52  Code  Lc  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg        0x1fffe73c    0x64  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg_init   0x0000695d    0xb8  Code  Lc  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_vsync      0x0000689f    0x52  Code  Gb  VCAN_OV7725_Eagle.o [1]
+pit_init                0x00006ab5    0x7a  Code  Gb  MKL_PIT.o [1]
+pll_clk_mhz             0x2000002c     0x4  Data  Gb  system_MKL.o [1]
+pll_init                0x0000833d    0xc6  Code  Gb  MKL_mcg.o [1]
+port_init               0x000038f1    0x4c  Code  Gb  MKL_port.o [1]
+port_init_NoALT         0x0000393d    0x74  Code  Gb  MKL_port.o [1]
+printf                  0x00003a15    0x28  Code  Gb  printf.o [3]
+putchar                 0x00009149    0x10  Code  Gb  putchar.o [3]
+range_protect           0x00002807    0x18  Code  Gb  Control.o [1]
+scale                   0x000045fb    0x44  Code  Lc  xprintffull.o [3]
+sec_hand                0x20000090     0x4  Data  Lc  xfail_s.o [3]
+second_signal           0x200000bd     0x1  Data  Gb  handle.o [1]
+set_vector_handler      0x00006a85    0x24  Code  Gb  misc.o [1]
+sixth_signal            0x200000c1     0x1  Data  Gb  handle.o [1]
+speed_measure           0x000027d3    0x34  Code  Gb  Control.o [1]
+start                   0x00008b21    0x18  Code  Gb  system_MKL.o [1]
+start_check             0x000039e3     0x2  Code  Gb  MKL_conf.o [1]
+strchr                  0x00004e11     0x2  Code  Gb  strchr.o [5]
+strlen                  0x00004e71    0x10  Code  Gb  strlen.o [5]
+sysinit                 0x00008b39    0x66  Code  Gb  system_MKL.o [1]
+systick_delay           0x00002e79    0x38  Code  Gb  MKL_SysTick.o [1]
+systick_delay_ms        0x00002eb1    0x18  Code  Gb  MKL_SysTick.o [1]
+tfont16                 0x00008c90    0xac  Data  Gb  lcd.o [1]
+tfont24                 0x00008458   0x330  Data  Gb  lcd.o [1]
+tfont32                 0x00008d3c    0x84  Data  Gb  lcd.o [1]
+third_signal            0x200000be     0x1  Data  Gb  handle.o [1]
+tpm_port_mux            0x000029bd    0xf4  Code  Gb  MKL_TPM.o [1]
+tpm_pulse_clean         0x00002e37    0x10  Code  Gb  MKL_TPM.o [1]
+tpm_pulse_get           0x00002e47    0x10  Code  Gb  MKL_TPM.o [1]
+tpm_pulse_init          0x00002d3d    0xfa  Code  Gb  MKL_TPM.o [1]
+tpm_pwm_duty            0x00002c31    0xe0  Code  Gb  MKL_TPM.o [1]
+tpm_pwm_init            0x00002ab1   0x17a  Code  Gb  MKL_TPM.o [1]
+uart_init               0x00003a3d   0x2c4  Code  Gb  MKL_uart.o [1]
+uart_putchar            0x00003d25    0x34  Code  Gb  MKL_uart.o [1]
+vector_str              0x1fffe498   0x1bc  Data  Gb  MKL_conf.o [1]
+wait_key_down           0x0000613b    0x7c  Code  Gb  System.o [1]
+wdog_cfg                0x1ffffff0     0x4  Data  Lc  MKL_wdog.o [1]
+wdog_disable            0x00008c71    0x16  Code  Gb  MKL_wdog.o [1]
+write_vtor              0x00006a65    0x20  Code  Gb  misc.o [1]
+
+
+[1] = D:\KL46智能车程序\探索者KL46省赛 最终\Prj\IAR\Debug\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  30 576 bytes of readonly  code memory
+   6 772 bytes of readonly  data memory
+   7 353 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
